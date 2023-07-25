@@ -17,7 +17,7 @@ body {
 	margin: 0;
 	--color-text: #000;
 	--color-text-alt: #000;
-	--color-bg: #de5f40;
+	--color-bg: #C493D4;
 	--color-link: #000;
 	--color-link-hover: #000;
 	--color-link-alt: #000;
@@ -25,7 +25,8 @@ body {
 	--type-line-opacity: 0.05;
 	color: var(--color-text);
 	background-color: var(--color-bg);
-	font-family: halyard-display, sans-serif;
+	/* font-family: halyard-display, sans-serif; */
+	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -209,9 +210,10 @@ main {
 	white-space: nowrap;
 	font-size: 20vh;
 	font-size: clamp(7rem,18.75vh,15rem);
-	line-height: 0.75;
+	line-height: 0.85;
 	font-weight: bold;
-	font-family: quiche-sans, sans-serif;
+	/* font-family: quiche-sans, sans-serif; */
+	font-family: 'Noto Serif Display', serif;
 	color: var(--color-type);
 	opacity: var(--type-line-opacity);
 	-webkit-touch-callout: none;
@@ -282,7 +284,8 @@ main {
 	font-size: 8vw;
 	text-transform: uppercase;
 	font-weight: bold;
-	font-family: quiche-sans, sans-serif;
+	/* font-family: quiche-sans, sans-serif; */
+	font-family: 'Noto Serif Display', serif;
 	color: var(--color-type);
 	position: relative;
 	margin: 1rem 0 0.5rem;
