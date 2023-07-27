@@ -562,13 +562,4 @@ main {
 		position: absolute;
 		left: calc(((100vw - (38vw + 280px)) / 2) + 1.5rem);
 	}
-
-	.bg {
-		position: absolute;
-		height: 100%;
-		width: 100%;
-		opacity: 0;
-		background: url('/img/bg.webp') no-repeat;
-		background-size: contain;
-	}
 }
