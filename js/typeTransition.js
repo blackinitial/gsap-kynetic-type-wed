@@ -19,7 +19,8 @@ export class TypeTransition {
             duration: 1.4,
             ease: 'power2.inOut',
             scale: 2.7,
-            rotate: -90
+            rotate: -90,
+            backgroundColor: '#F1DFFF'
         })
         .to(this.DOM.lines, {
             keyframes: [
@@ -41,7 +42,8 @@ export class TypeTransition {
             duration: 1.4,
             ease: 'power2.inOut',
             scale: 1,
-            rotate: 0
+            rotate: 0,
+            backgroundColor: '#C493D4'
         }, 1.2)
         .to(this.DOM.lines, {
             duration: 2.3, 
